@@ -1,0 +1,53 @@
+    1  git iniat
+    2  git init
+    3  cd /root/Desktop/host
+    4  ped
+    5  pwd
+    6  git clone https://github.com/Nateli-phy/P2.git
+    7  cd P2
+    8  rm Problem1/*
+    9  rm -r Problem1/*
+   10  nano file_remove.sh
+   11  apt-get update
+   12  apt-get install -y git nano vim coreutils
+   13  nano file_remove.sh
+   14  chmod +x separate_files.sh
+   15  chmod +x file_remove.sh
+   16  nano separate_files.sh
+   17  chmod +x separate_files.sh
+   18  cd Problem_1/electron_scattering_data./separate_files.sh
+   19  cd Problem_1/electron_scattering_data
+   20  git clone https://github.com/Nateli-phy/P2.git
+   21  cd /root/Desktop/host
+   22  git clone https://github.com/Nateli-phy/P2.git
+   23  cd P2
+   24  rm Problem_1/*
+   25  rm Problem1/*
+   26  find Problem1 -maxdepth 1 -type f -exec rm {} \;
+   27  cd Problem_1/electron_scattering_data
+   28  cd Problem1/electron_scattering_data
+   29  ./separate_files.sh
+   30  pwd
+   31  ls -l
+   32  nano separate_files.sh
+   33  chmod +x separate_files.sh
+   34  ./separate_files.sh
+   35  nano separate_files.sh
+   36  chmod +x separate_files.sh
+   37  ./separate_files.sh
+   38  git add .
+   39  git commit -m "Added file_remove.sh and separated files by index"
+   40  git push origin main
+   41  mv even/odd .
+   42  git status
+   43  git add .
+   44  git commit -m "Organized files into odd and even directories, added separation script"
+   45  git push origin main
+   46  cd /root/Desktop/host/P2/Problem1
+   47  git status
+   48  git add .
+   49  git commit- m
+   50  git commit -m
+   51  git commit -m "Organized files into odd and even directories, added separation script"
+   52  git push origin main
+   53  history > command_history.txt
